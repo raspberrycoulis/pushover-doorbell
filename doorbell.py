@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from time import sleep
 from gpiozero import Button
 import http.client, urllib
