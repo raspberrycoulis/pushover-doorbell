@@ -12,4 +12,4 @@ By default, a simple push button is connected to GPIO 15 on the Raspberry Pi, bu
 
 ### ESP8266
 
-When using the ESP8266, the push button is connected between the D2 and the GND pins. If you wish to use a different pin, simply change the pin setting in the `esp8266-pushover-button.ino` example. You will also need to provide your WiFi network credentials for this to work.
+When using the ESP8266, the push button is connected between the D2 and the GND pins. If you wish to use a different pin, simply change the pin setting in the [esp8266-pushover-button.ino](https://github.com/raspberrycoulis/pushover-doorbell/blob/main/arduino/esp8266-pushover-button.ino) example. You will also need to provide your WiFi network credentials for this to work.
