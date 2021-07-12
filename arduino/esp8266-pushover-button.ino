@@ -55,7 +55,7 @@ void loop() {
 byte pushover(char *pushovermessage) {
  
   String Msg = pushovermessage;
-  length = 113 + Msg.length();
+  length = 111 + Msg.length();
     if (client.connect("api.pushover.net", 80)) {
       client.println("POST /1/messages.json HTTP/1.1");
       client.println("Host: api.pushover.net");
@@ -63,7 +63,7 @@ byte pushover(char *pushovermessage) {
       client.print("Content-Length: ");
       client.print(length);
       client.println("\r\n");
-      client.print("token="+Token+"&user="+User+"&title=Doorbell&sound=doorbell-3&message="+Msg);
+      client.print("token="+Token+"&user="+User+"&title=Doorbell&sound=pushover&message="+Msg);
       /* Uncomment this to receive a reply from Pushover server:*/
       /*while(client.connected()) {
         while(client.available()) {
