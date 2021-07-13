@@ -38,4 +38,4 @@ Below is an example of how a single NeoPixel and push-button can be wired to a R
 
 The push-button is very simple and you can use any pin for the ground / input. If unsure, stick with the diagram below:
 
-![Fritzing Diagram](https://github.com/raspberrycoulis/pushover-doorbell/blob/main/examples/fritzting.png)
+![Fritzing Diagram](https://github.com/raspberrycoulis/pushover-doorbell/blob/main/content/fritzting.png)
