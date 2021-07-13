@@ -28,6 +28,14 @@ When using the ESP8266, the push button is connected between the D2 and the GND 
 ## Example wiring diagram
 ### Raspberry Pi
 
-Below is an example of how a single NeoPixel and push-button can be wired to a Raspberry Pi's GPIO:
+Below is an example of how a single NeoPixel and push-button can be wired to a Raspberry Pi's GPIO, which in this case is wired as follows:
+
+* NeoPixel VCC - `5V`
+* NeoPixel GND - `GND`
+* NeoPixel DIN - `GPIO 18`
+* Push-button (any pin works) - `GPIO 15`
+* Push-button GND (any pin works) - `GND`
+
+The push-button is very simple and you can use any pin for the ground / input. If unsure, stick with the diagram below:
 
 ![Fritzing Diagram](https://github.com/raspberrycoulis/pushover-doorbell/blob/main/examples/fritzting.png)
