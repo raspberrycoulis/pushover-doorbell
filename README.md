@@ -24,3 +24,10 @@ sudo python3 -m pip install --force-reinstall adafruit-blinka
 ### ESP8266
 
 When using the ESP8266, the push button is connected between the D2 and the GND pins. If you wish to use a different pin, simply change the pin setting in the [esp8266-pushover-button.ino](https://github.com/raspberrycoulis/pushover-doorbell/blob/main/arduino/esp8266-pushover-button.ino) example. You will also need to provide your WiFi network credentials for this to work.
+
+## Example wiring diagram
+### Raspberry Pi
+
+Below is an example of how a single NeoPixel and push-button can be wired to a Raspberry Pi's GPIO:
+
+![Fritzing Diagram](https://github.com/raspberrycoulis/pushover-doorbell/blob/main/examples/fritzting.png)
