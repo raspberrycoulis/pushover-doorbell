@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+## Inspired by https://github.com/themagpimag/monthofmaking2019/blob/master/DisplayLights/rollcall.py by robthez ##
 
 import board
 import neopixel
