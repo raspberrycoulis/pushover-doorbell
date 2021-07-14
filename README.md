@@ -20,6 +20,15 @@ To use NeoPixels (currently only on Raspberry Pi), you'll need to connect your N
 sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
 sudo python3 -m pip install --force-reinstall adafruit-blinka
 ```
+### NumPy in Python 3
+
+To install NumPy as needed in the `fade-neopixel-doorbell.py` script, you'll likely run into issues with compatibility. To fix this, run:
+
+```bash
+sudo apt-get install libatlas-base-dev
+sudo python3 -m pip install numpy
+```
+If you have no intention of using `fade-neopixel-doorbell.py` then you can ignore this bit.
 
 ### ESP8266
 
